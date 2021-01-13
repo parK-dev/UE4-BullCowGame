@@ -11,7 +11,7 @@ void UBullCowCartridge::BeginPlay() // When the game starts
     SetupGame(); //Setting up the game
 }
 
-void UBullCowCartridge::OnInput(const FString& PlayerInput) // When the player hits enter
+void UBullCowCartridge::OnInput(const FString& PlayerInput) // Activates When the player hits enter
 {
    
     if (bGameOver)
